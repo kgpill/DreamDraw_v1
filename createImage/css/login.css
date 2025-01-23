@@ -1,0 +1,17 @@
+.loginBox {
+    width: 398px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #17386B;
+    position: absolute;
+    top: 391px;
+    left: 46px;
+    text-align: center;
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+}

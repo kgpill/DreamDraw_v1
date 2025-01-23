@@ -1,0 +1,128 @@
+.sideBox {
+    width: 350px;
+    height: 100%;
+    background: #3E3E3E;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0); /* 초기에 왼쪽으로 이동해서 사이드바 숨김 */
+}
+.arrow { 
+    transform: rotate(180deg); /*반대 방향으로 돌리기*/
+}
+.sidebarVisible {
+    transform: translateX(-85%); 
+  }
+.sidebarToggle{ /*버튼 위치*/
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    cursor: pointer;
+}
+.sideText{
+    width: 212px;
+    height: 47px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.sideText svg{
+    margin-right: 10px;
+    margin-left: 9px;
+}
+.sideBox ul{
+    padding-left: 13px;
+    list-style: none; 
+}
+.sideBox ul > li{
+    display: flex;
+    width: 290px;
+    height: 100px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.sideBox ul > li:hover{
+    background-color: #292929;
+    border-radius: 20px;  
+    transition: background-color 0.3s ease;
+}
+
+.sideBox ul > li > a {
+    color: #FFF;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center; /* 중앙 정렬*/
+    justify-content: center;
+    width: 290px;
+    height: 100px;
+}
+
+
+.userIcon {
+    position: absolute;
+    top: 50px;
+    left: 22px;
+}
+.email,
+.name {
+    width: 212px;
+    height: 47px;
+    position: absolute;
+}
+
+.name {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    top: 45px;
+    left: 100px;
+}
+.email {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    top: 103px;
+    left: 48px;
+}
+
+.userArea {
+    width: 290px;
+    height: 190px;
+    margin-left: 9px;
+    margin-top: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.userArea:hover {
+    background-color: #292929;
+    border-radius: 20px; 
+}
+
+.logout {
+    width: 117px;
+    height: 40px;
+    border-radius: 10px;
+    background: #292929;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    top: 144px;
+    left: 90px;
+}
+
+.logout:hover {
+    background-color: #405080;
+}	

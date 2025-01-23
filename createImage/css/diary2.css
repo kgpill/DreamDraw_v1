@@ -1,0 +1,135 @@
+.background {
+    width: 979px;
+    height: 899px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #608ccd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dates {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 27px;
+    left: 42px;
+}
+
+.image-container {
+    width: 903px;
+    height: 566px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 105px;
+    left: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: filter 0.3s ease-out;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.overlay-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.image:hover .image img {
+    filter: blur(5px);
+}
+
+.image:hover .overlay-text {
+    filter: blur(0); /* 글씨 흐려짐 제거 */
+}
+
+
+.explanation {
+    width: 903px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 698px;
+    left: 37px;
+}
+
+.x {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 400px;
+    right: 400px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.leftArrow2,
+.rightArrow2 {
+    width: 57px;
+    height: 92px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.leftArrow2 {
+    top: 409px;
+    left: -81.79px;
+    position: absolute;
+
+}
+
+.rightArrow2 {
+    top: 409px;
+    right: -81.79px;
+    position: absolute;
+}

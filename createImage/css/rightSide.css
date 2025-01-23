@@ -1,0 +1,98 @@
+.emotionBox {
+    width: 261px;
+    height: 667px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 140px;
+    left: 1219px;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: center;
+}
+
+.emotion1,
+.emotion2,
+.emotion3,
+.emotion4,
+.emotion5,
+.emotion6 {
+    width: 209px;
+    height: 69px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    place-items: center;
+    text-align: center;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.emotion1 {
+    background: #A0EEFF;
+    top: 85px;
+    left: 28px;
+}
+
+.emotion2 {
+    background: #BAFF90;
+    top: 180px;
+    left: 28px;
+}
+
+.emotion3 {
+    background: #FFAC4B;
+    top: 275px;
+    left: 28px;
+}
+
+.emotion4 {
+    background: #797979;
+    top: 370px;
+    left: 28px;
+}
+
+.emotion5 {
+    background: #FF4848;
+    top: 465px;
+    left: 28px;
+}
+
+.emotion6 {
+    background: #FFF84E;
+    top: 560px;
+    left: 28px;
+}
+
+.createImage {
+    width: 261px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #3E3E3E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 822px;
+    left: 1218px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    line-height: 90px;
+}

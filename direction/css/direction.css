@@ -1,0 +1,25 @@
+.mainExplanation,
+.diary1,
+.diary2 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+}
+
+.mainExplanation {
+    width: 1586px;
+    height: 926px;
+    top: 115px;
+}
+
+.diary1 {
+    width: 1542px;
+    height: 1044px;
+    top: 1500px;
+}
+
+.diary2 {
+    width: 1601px;
+    height: 858.67px;
+    top: 2700px;
+}

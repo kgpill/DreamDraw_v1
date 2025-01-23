@@ -1,0 +1,103 @@
+.box {
+            width: 521px;
+            height: 248px;
+            border-radius: 30px;
+            background: #515C95;
+            position: absolute;
+            top: 349px;
+            left: 648px;
+            display: none; /* Use display property instead of visibility */
+            z-index: 3; /* Set z-index to ensure visibility above other elements */
+        }
+
+.registerButton{
+	width: 152px;
+	height: 52px;
+	border-radius: 20px;
+	background: #313967;
+	color: #FFF;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	position: absolute;
+	top: 187px;
+	left: 360px;
+}
+
+.dreamRegisterText{
+	width: 200px;
+	height: 45px;
+	color: #FFF;
+	font-family: Inter;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	position: absolute;
+	top: 27px;
+	left: 35px;
+}
+
+.anonymousBox{
+	width: 17px;
+	height: 17px;
+	flex-shrink: 0;
+	background: #FFF;
+	position: absolute;
+	top: 97px;
+	left: 44px;
+}
+
+.anonymous{
+	width: 76px;
+	height: 53px;
+	color: #ECECEC;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	position: absolute;
+	top: 97px;
+	left: 67px;
+}
+
+.dreamTitle{
+	width: 435px;
+	height: 33px;
+	color: #ECECEC;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	background: #515C95;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 134px;
+	left: 42px;
+}
+
+.dreamTitle::placeholder {
+    color: #D9D9D9;
+}
+
+.titleLine{
+	width: 434.5px;
+	height: 0.972px;
+	transform: rotate(-0.128deg);
+	stroke-width: 1px;
+	stroke: #3E3E3E;
+	position: absolute;
+	top: 165px;
+	left: 44px;
+}
+
+.blur-background {
+  filter: blur(5px); /* 흐림 효과를 나타내는 CSS 속성, 필요에 따라 조절 가능 */
+}
+

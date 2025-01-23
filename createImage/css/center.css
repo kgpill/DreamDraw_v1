@@ -1,0 +1,153 @@
+.categoryBar,
+.inputBar {
+    position: absolute;
+    width: 749px;
+    height: 84px;
+    flex-shrink: 0;
+    line-height: 10px;
+}
+
+.categoryBar {
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background: #FFF;
+
+    top: 722px;
+    left: 398px;
+}
+
+.inputBar {
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background: #522269;
+
+    top: 822px;
+    left: 398px;
+}
+
+.categoryText,
+.inputText {
+    width: 600px;
+    height: 55px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.categoryText {
+    color: #000;
+}
+
+.inputText {
+    color: #FFF;
+}
+
+.moon {
+    position: absolute;
+    top: 209px;
+    left: 640px;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 390px;
+    left: 580px;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 420px;
+    left: 780px;
+}
+
+.star1,
+.star2,
+.star3,
+.star4,
+.star5,
+.star6,
+.star7,
+.star8,
+.star9,
+.star10,
+.star11,
+.star12 {
+    width: 28.572px;
+    height: 28.527px;
+    position: absolute;
+}
+
+.star1 {
+    top: 240px;
+    left: 450px;
+}
+
+.star2 {
+    top: 280px;
+    left: 570px;
+}
+
+.star3 {
+    top: 127px;
+    left: 470px;
+}
+
+.star4 {
+    top: 167px;
+    left: 587px;
+}
+
+.star5 {
+    top: 98px;
+    left: 672px;
+}
+
+.star6 {
+    top: 156px;
+    left: 744px;
+}
+
+.star7 {
+    top: 120px;
+    left: 860px;
+}
+
+.star8 {
+    top: 240px;
+    left: 812px;
+}
+
+.star9 {
+    top: 197px;
+    left: 906px;
+}
+
+.star10 {
+    top: 290px;
+    left: 960px;
+}
+
+.star11 {
+    top: 160px;
+    left: 1010px;
+}
+
+.star12 {
+    top: 247px;
+    left: 1042px;
+}
+
+.centertext {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 553px;
+    left: 534px;
+}

@@ -1,0 +1,154 @@
+.title,
+.dream,
+.sleeping,
+.coment1,
+.coment2,
+.coment3,
+.coment4,
+.coment5,
+.coment6,
+.coment7,
+.coment8,
+.whale,
+.ghost,
+.love,
+.sky,
+.diary,
+.drawing,
+.sotong {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title {
+    width: 712px;
+    height: 140px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 88px;
+    text-align: center;
+}
+
+.dream {
+    width: 416px;
+    height: 402px;
+    position: absolute;
+    top: 234px;
+    left: 55%
+}
+
+.sleeping {
+    width: 146.216px;
+    height: 138.655px;
+    position: absolute;
+    top: 600px;
+    left: 44%;
+}
+
+
+.coment1,
+.coment2,
+.coment3,
+.coment4,
+.coment5,
+.coment6,
+.coment7,
+.coment8 {
+    width: 1050px;
+    height: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+
+.coment1 {
+    top: 788px;
+}
+
+.coment2 {
+    top: 1513px;
+}
+
+.coment3 {
+    top: 2360px;
+}
+
+.coment4 {
+    top: 3140px;
+}
+
+.coment5 {
+    top: 3875px;
+}
+
+.coment6 {
+    top: 4734px;
+
+}
+
+.coment7 {
+    top: 5584px;
+}
+
+.coment8 {
+    top: 6433px;
+}
+
+
+.whale,
+.ghost,
+.love,
+.sky {
+    width: 616px;
+    height: 468px;
+    position: absolute;
+}
+
+.whale {
+    top: 1012px;
+}
+
+.ghost {
+    top: 1848px;
+}
+
+.love {
+    top: 2620px;
+}
+
+.sky {
+    top: 3374px;
+}
+
+.diary {
+    width: 592px;
+    height: 573px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 4136px;
+}
+
+.drawing {
+    position: absolute;
+    top: 4960px;
+}
+
+.sotong {
+    width: 727px;
+    height: 529px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 5859px;
+}
